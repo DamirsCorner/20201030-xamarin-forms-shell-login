@@ -74,6 +74,10 @@
         </ResourceDictionary>
     </Shell.Resources>
 
+    <FlyoutItem IsVisible="False">
+        <ShellContent Route="StartupPage" Shell.FlyoutBehavior="Disabled" ContentTemplate="{DataTemplate local:StartupPage}" />
+    </FlyoutItem>
+    
     <!-- 
         When the Flyout is visible this defines the content to display in the flyout.
         FlyoutDisplayOptions="AsMultipleItems" will create a separate flyout item for each child element    
