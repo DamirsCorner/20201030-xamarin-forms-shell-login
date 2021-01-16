@@ -98,9 +98,9 @@
         If you would like to navigate to this content you can do so by calling
         await Shell.Current.GoToAsync("//LoginPage");
     -->
-    <FlyoutItem IsVisible="False">
+    <TabBar>
         <ShellContent Route="LoginPage" Shell.FlyoutBehavior="Disabled" ContentTemplate="{DataTemplate local:LoginPage}" />
-    </FlyoutItem>
+    </TabBar>
 
     <!-- Optional Templates 
     // These may be provided inline as below or as separate classes.
