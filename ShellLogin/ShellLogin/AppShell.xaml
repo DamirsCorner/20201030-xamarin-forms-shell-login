@@ -74,9 +74,9 @@
         </ResourceDictionary>
     </Shell.Resources>
 
-    <FlyoutItem IsVisible="False">
+    <TabBar>
         <ShellContent Route="StartupPage" Shell.FlyoutBehavior="Disabled" ContentTemplate="{DataTemplate local:StartupPage}" />
-    </FlyoutItem>
+    </TabBar>
     
     <!-- 
         When the Flyout is visible this defines the content to display in the flyout.
